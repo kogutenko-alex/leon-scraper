@@ -1,0 +1,203 @@
+{
+    "enabled": false,
+    "betline": null,
+    "totalCount": 4,
+    "vtag": "9c2cd386-31e1-4ce9-a140-28e9b63a9300",
+    "_s": "077",
+    "events": [
+        {
+            "id": 1970324844627590,
+            "name": "UEFA Champions League - Most Assists",
+            "nameDefault": "UEFA Champions League - Most Assists",
+            "competitors": [],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746587242645,
+            "league": {
+                "id": 1970324836980123,
+                "sport": {
+                    "id": 1970324836974595,
+                    "name": "Football",
+                    "weight": 999,
+                    "family": "Soccer",
+                    "mainMarkets": [
+                        {
+                            "id": 1970324836974645,
+                            "name": "Winner",
+                            "weight": 1,
+                            "altMarketTypeIds": [
+                                1970324836977600
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836976486,
+                            "name": "Next Goal",
+                            "weight": 2,
+                            "altMarketTypeIds": [
+                                1970324836974653,
+                                1970324836977602
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974992,
+                            "name": "Total",
+                            "weight": 3,
+                            "altMarketTypeIds": [
+                                1970324836974991,
+                                1970324836977604
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836975100,
+                            "name": "Handicap",
+                            "weight": 4,
+                            "altMarketTypeIds": [
+                                1970324836974637,
+                                1970324836978002,
+                                1970324836978003,
+                                1970324836977603
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974998,
+                            "name": "Half Winner",
+                            "weight": 5,
+                            "altMarketTypeIds": [
+                                1970324836976487,
+                                1970324836975017
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974989,
+                            "name": "Half Total",
+                            "weight": 6,
+                            "altMarketTypeIds": [
+                                1970324836974990
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836975005,
+                            "name": "Home Team Total",
+                            "weight": 7,
+                            "altMarketTypeIds": [],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974993,
+                            "name": "Away Team Total",
+                            "weight": 8,
+                            "altMarketTypeIds": [],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974656,
+                            "name": "Both Teams To Score",
+                            "weight": 9,
+                            "altMarketTypeIds": [],
+                            "virtual": false
+                        }
+                    ],
+                    "virtual": false,
+                    "url": "soccer"
+                },
+                "name": "UEFA Champions League",
+                "nameDefault": "UEFA Champions League",
+                "url": "uefa-champions-league",
+                "weight": 999,
+                "prematch": 0,
+                "inplay": 0,
+                "outright": 4,
+                "top": false,
+                "hasZeroMarginEvents": false,
+                "topOrder": 3,
+                "region": {
+                    "id": 1970324836975078,
+                    "name": "Europe",
+                    "nameDefault": "Europe",
+                    "family": "WORLD",
+                    "url": "europe"
+                },
+                "logoSource": "SCORES",
+                "logoUrl": "https://cdnimages3-21a8b.kxcdn.com/HRJLWPLB/images/config_logos_v2/scores24_l_5531-1937.png"
+            },
+            "betline": "outright",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "uefa-champions-league-most-assists",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "runnersCount": 11
+        },
+        {
+            "id": 1970324844627591,
+            "name": "UEFA Champions League - Top Goalscorer",
+            "nameDefault": "UEFA Champions League - Top Goalscorer",
+            "competitors": [],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746623681178,
+            "league": {
+                "id": 1970324836980123
+            },
+            "betline": "outright",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "uefa-champions-league-top-goalscorer",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "runnersCount": 5
+        },
+        {
+            "id": 1970324846035425,
+            "name": "UEFA Champions League - Finalists",
+            "nameDefault": "UEFA Champions League - Finalists",
+            "competitors": [],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746567857152,
+            "league": {
+                "id": 1970324836980123
+            },
+            "betline": "outright",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "uefa-champions-league-finalists",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "runnersCount": 2
+        },
+        {
+            "id": 1970324846229172,
+            "name": "UEFA Champions League - Winner",
+            "nameDefault": "UEFA Champions League - Winner",
+            "competitors": [],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746567965659,
+            "league": {
+                "id": 1970324836980123
+            },
+            "betline": "outright",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "uefa-champions-league-winner",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "runnersCount": 3
+        }
+    ]
+}

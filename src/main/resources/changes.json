@@ -1,0 +1,675 @@
+{
+    "enabled": false,
+    "totalCount": 5,
+    "vtag": "9c2cd386-31e1-4ce9-a140-28e9b63a9300",
+    "data": [
+        {
+            "id": 1970324846530000,
+            "_s": "073",
+            "name": "Paris Saint-Germain - Arsenal",
+            "nameDefault": "Paris Saint-Germain - Arsenal",
+            "competitors": [
+                {
+                    "id": 1970324836983660,
+                    "name": "Paris Saint-Germain",
+                    "homeAway": "HOME",
+                    "logoSource": "SCORES",
+                    "logo": "https://cdnimages3-21a8b.kxcdn.com/HRJLWPLB/images/config_logos_v2/scores24_t_1644-4.png"
+                },
+                {
+                    "id": 1970324836982753,
+                    "name": "Arsenal",
+                    "homeAway": "AWAY",
+                    "logoSource": "SCORES",
+                    "logo": "https://cdnimages3-21a8b.kxcdn.com/HRJLWPLB/images/config_logos_v2/scores24:t:42-1.png"
+                }
+            ],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746635092857,
+            "league": {
+                "id": 1970324836980123,
+                "sport": {
+                    "id": 1970324836974595,
+                    "name": "Football",
+                    "weight": 999,
+                    "family": "Soccer",
+                    "mainMarkets": [
+                        {
+                            "id": 1970324836974645,
+                            "name": "Winner",
+                            "weight": 1,
+                            "altMarketTypeIds": [
+                                1970324836977600
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836976486,
+                            "name": "Next Goal",
+                            "weight": 2,
+                            "altMarketTypeIds": [
+                                1970324836974653,
+                                1970324836977602
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974992,
+                            "name": "Total",
+                            "weight": 3,
+                            "altMarketTypeIds": [
+                                1970324836974991,
+                                1970324836977604
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836975100,
+                            "name": "Handicap",
+                            "weight": 4,
+                            "altMarketTypeIds": [
+                                1970324836974637,
+                                1970324836978002,
+                                1970324836978003,
+                                1970324836977603
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974998,
+                            "name": "Half Winner",
+                            "weight": 5,
+                            "altMarketTypeIds": [
+                                1970324836976487,
+                                1970324836975017
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974989,
+                            "name": "Half Total",
+                            "weight": 6,
+                            "altMarketTypeIds": [
+                                1970324836974990
+                            ],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836975005,
+                            "name": "Home Team Total",
+                            "weight": 7,
+                            "altMarketTypeIds": [],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974993,
+                            "name": "Away Team Total",
+                            "weight": 8,
+                            "altMarketTypeIds": [],
+                            "virtual": false
+                        },
+                        {
+                            "id": 1970324836974656,
+                            "name": "Both Teams To Score",
+                            "weight": 9,
+                            "altMarketTypeIds": [],
+                            "virtual": false
+                        }
+                    ],
+                    "virtual": false,
+                    "url": "soccer"
+                },
+                "name": "UEFA Champions League",
+                "nameDefault": "UEFA Champions League",
+                "url": "uefa-champions-league",
+                "weight": 999,
+                "prematch": 1,
+                "inplay": 0,
+                "outright": 4,
+                "top": true,
+                "hasZeroMarginEvents": false,
+                "topOrder": 3,
+                "region": {
+                    "id": 1970324836975078,
+                    "name": "Europe",
+                    "nameDefault": "Europe",
+                    "family": "WORLD",
+                    "url": "europe"
+                },
+                "logoSource": "SCORES",
+                "logoUrl": "https://cdnimages3-21a8b.kxcdn.com/HRJLWPLB/images/config_logos_v2/scores24_l_5531-1937.png"
+            },
+            "betline": "prematch",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "paris-saint-germain-arsenal",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "markets": [
+                {
+                    "id": 1970325703885112,
+                    "typeTag": "REGULAR",
+                    "name": "Winner",
+                    "marketTypeId": 1970324836974645,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": true,
+                    "cols": 3,
+                    "runners": [
+                        {
+                            "id": 1970326911671267,
+                            "name": "1",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "HOME"
+                            ],
+                            "price": 2.23,
+                            "priceStr": "2.23"
+                        },
+                        {
+                            "id": 1970326911671268,
+                            "name": "X",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "DRAW"
+                            ],
+                            "price": 3.55,
+                            "priceStr": "3.55"
+                        },
+                        {
+                            "id": 1970326911671269,
+                            "name": "2",
+                            "open": true,
+                            "r": 0,
+                            "c": 2,
+                            "tags": [
+                                "AWAY"
+                            ],
+                            "price": 3.2,
+                            "priceStr": "3.20"
+                        }
+                    ],
+                    "specifiers": {},
+                    "selectionTypes": [
+                        "HOME",
+                        "AWAY",
+                        "DRAW"
+                    ]
+                },
+                {
+                    "id": 1970325703885141,
+                    "typeTag": "REGULAR",
+                    "name": "To Score Goal 1",
+                    "marketTypeId": 1970324836976486,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": false,
+                    "cols": 3,
+                    "runners": [
+                        {
+                            "id": 1970326911671381,
+                            "name": "1",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "HOME"
+                            ],
+                            "price": 1.83,
+                            "priceStr": "1.83"
+                        },
+                        {
+                            "id": 1970326911671379,
+                            "name": "2",
+                            "open": true,
+                            "r": 0,
+                            "c": 2,
+                            "tags": [
+                                "AWAY"
+                            ],
+                            "price": 2.24,
+                            "priceStr": "2.24"
+                        },
+                        {
+                            "id": 1970326911671383,
+                            "name": "No goal",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "OTHER"
+                            ],
+                            "price": 15.0,
+                            "priceStr": "15.00"
+                        }
+                    ],
+                    "specifiers": {
+                        "goalnr": "1"
+                    },
+                    "selectionTypes": [
+                        "OTHER",
+                        "HOME",
+                        "AWAY"
+                    ]
+                },
+                {
+                    "id": 1970325703885166,
+                    "typeTag": "TOTAL",
+                    "name": "Total",
+                    "marketTypeId": 1970324836974992,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": false,
+                    "handicap": "2.5",
+                    "cols": 2,
+                    "runners": [
+                        {
+                            "id": 1970326911671448,
+                            "name": "Under (2.5)",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "UNDER"
+                            ],
+                            "price": 2.12,
+                            "priceStr": "2.12",
+                            "handicap": "2.5"
+                        },
+                        {
+                            "id": 1970326911671447,
+                            "name": "Over (2.5)",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "OVER"
+                            ],
+                            "price": 1.73,
+                            "priceStr": "1.73",
+                            "handicap": "2.5"
+                        }
+                    ],
+                    "specifiers": {
+                        "total": "2.5"
+                    },
+                    "selectionTypes": [
+                        "UNDER",
+                        "OVER"
+                    ]
+                },
+                {
+                    "id": 1970325703885059,
+                    "typeTag": "HANDICAP",
+                    "name": "Handicap",
+                    "marketTypeId": 1970324836975100,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": false,
+                    "handicap": "-0.5",
+                    "cols": 2,
+                    "runners": [
+                        {
+                            "id": 1970326911671107,
+                            "name": "1 (-0.5)",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "HOME"
+                            ],
+                            "price": 2.19,
+                            "priceStr": "2.19",
+                            "handicap": "-0.5"
+                        },
+                        {
+                            "id": 1970326911671106,
+                            "name": "2 (+0.5)",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "AWAY"
+                            ],
+                            "price": 1.69,
+                            "priceStr": "1.69",
+                            "handicap": "+0.5"
+                        }
+                    ],
+                    "specifiers": {
+                        "hcp": "-0.5"
+                    },
+                    "selectionTypes": [
+                        "HOME",
+                        "AWAY"
+                    ]
+                },
+                {
+                    "id": 1970325703885159,
+                    "typeTag": "REGULAR",
+                    "name": "Half 1: Winner",
+                    "marketTypeId": 1970324836974998,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": false,
+                    "cols": 3,
+                    "runners": [
+                        {
+                            "id": 1970326911671431,
+                            "name": "1",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "HOME"
+                            ],
+                            "price": 2.7,
+                            "priceStr": "2.70"
+                        },
+                        {
+                            "id": 1970326911671432,
+                            "name": "X",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "DRAW"
+                            ],
+                            "price": 2.3,
+                            "priceStr": "2.30"
+                        },
+                        {
+                            "id": 1970326911671433,
+                            "name": "2",
+                            "open": true,
+                            "r": 0,
+                            "c": 2,
+                            "tags": [
+                                "AWAY"
+                            ],
+                            "price": 3.6,
+                            "priceStr": "3.60"
+                        }
+                    ],
+                    "specifiers": {},
+                    "selectionTypes": [
+                        "DRAW",
+                        "HOME",
+                        "AWAY"
+                    ]
+                },
+                {
+                    "id": 1970325703885183,
+                    "typeTag": "TOTAL",
+                    "name": "Half 1: Total",
+                    "marketTypeId": 1970324836974989,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": false,
+                    "handicap": "1",
+                    "cols": 2,
+                    "runners": [
+                        {
+                            "id": 1970326911671493,
+                            "name": "Under (1)",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "UNDER"
+                            ],
+                            "price": 2.2,
+                            "priceStr": "2.20",
+                            "handicap": "1"
+                        },
+                        {
+                            "id": 1970326911671494,
+                            "name": "Over (1)",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "OVER"
+                            ],
+                            "price": 1.68,
+                            "priceStr": "1.68",
+                            "handicap": "1"
+                        }
+                    ],
+                    "specifiers": {
+                        "total": "1"
+                    },
+                    "selectionTypes": [
+                        "OVER",
+                        "UNDER"
+                    ]
+                },
+                {
+                    "id": 1970325703885113,
+                    "typeTag": "TOTAL",
+                    "name": "Home Team Total",
+                    "marketTypeId": 1970324836975005,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": false,
+                    "handicap": "1.5",
+                    "cols": 2,
+                    "runners": [
+                        {
+                            "id": 1970326911671271,
+                            "name": "Under (1.5)",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "UNDER"
+                            ],
+                            "price": 1.82,
+                            "priceStr": "1.82",
+                            "handicap": "1.5"
+                        },
+                        {
+                            "id": 1970326911671270,
+                            "name": "Over (1.5)",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "OVER"
+                            ],
+                            "price": 1.99,
+                            "priceStr": "1.99",
+                            "handicap": "1.5"
+                        }
+                    ],
+                    "specifiers": {
+                        "total": "1.5"
+                    },
+                    "selectionTypes": [
+                        "OVER",
+                        "UNDER"
+                    ]
+                },
+                {
+                    "id": 1970325703885073,
+                    "typeTag": "TOTAL",
+                    "name": "Away Team Total",
+                    "marketTypeId": 1970324836974993,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": false,
+                    "handicap": "1.5",
+                    "cols": 2,
+                    "runners": [
+                        {
+                            "id": 1970326911671150,
+                            "name": "Under (1.5)",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "UNDER"
+                            ],
+                            "price": 1.54,
+                            "priceStr": "1.54",
+                            "handicap": "1.5"
+                        },
+                        {
+                            "id": 1970326911671149,
+                            "name": "Over (1.5)",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "OVER"
+                            ],
+                            "price": 2.5,
+                            "priceStr": "2.50",
+                            "handicap": "1.5"
+                        }
+                    ],
+                    "specifiers": {
+                        "total": "1.5"
+                    },
+                    "selectionTypes": [
+                        "OVER",
+                        "UNDER"
+                    ]
+                },
+                {
+                    "id": 1970325703885219,
+                    "typeTag": "REGULAR",
+                    "name": "Both Teams To Score",
+                    "marketTypeId": 1970324836974656,
+                    "open": true,
+                    "hasZeroMargin": false,
+                    "primary": false,
+                    "cols": 2,
+                    "runners": [
+                        {
+                            "id": 1970326911671586,
+                            "name": "Yes",
+                            "open": true,
+                            "r": 0,
+                            "c": 0,
+                            "tags": [
+                                "YES"
+                            ],
+                            "price": 1.63,
+                            "priceStr": "1.63"
+                        },
+                        {
+                            "id": 1970326911671585,
+                            "name": "No",
+                            "open": true,
+                            "r": 0,
+                            "c": 1,
+                            "tags": [
+                                "NO"
+                            ],
+                            "price": 2.34,
+                            "priceStr": "2.34"
+                        }
+                    ],
+                    "specifiers": {},
+                    "selectionTypes": [
+                        "NO",
+                        "YES"
+                    ]
+                }
+            ],
+            "runnersCount": 1792
+        },
+        {
+            "id": 1970324846035425,
+            "name": "UEFA Champions League - Finalists",
+            "nameDefault": "UEFA Champions League - Finalists",
+            "competitors": [],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746567857152,
+            "league": {
+                "id": 1970324836980123
+            },
+            "betline": "outright",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "uefa-champions-league-finalists",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "runnersCount": 2
+        },
+        {
+            "id": 1970324844627590,
+            "name": "UEFA Champions League - Most Assists",
+            "nameDefault": "UEFA Champions League - Most Assists",
+            "competitors": [],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746587242645,
+            "league": {
+                "id": 1970324836980123
+            },
+            "betline": "outright",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "uefa-champions-league-most-assists",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "runnersCount": 11
+        },
+        {
+            "id": 1970324844627591,
+            "name": "UEFA Champions League - Top Goalscorer",
+            "nameDefault": "UEFA Champions League - Top Goalscorer",
+            "competitors": [],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746623681178,
+            "league": {
+                "id": 1970324836980123
+            },
+            "betline": "outright",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "uefa-champions-league-top-goalscorer",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "runnersCount": 5
+        },
+        {
+            "id": 1970324846229172,
+            "name": "UEFA Champions League - Winner",
+            "nameDefault": "UEFA Champions League - Winner",
+            "competitors": [],
+            "kickoff": 1746644400000,
+            "lastUpdated": 1746567965659,
+            "league": {
+                "id": 1970324836980123
+            },
+            "betline": "outright",
+            "open": true,
+            "status": "OPEN",
+            "native": true,
+            "widgetType": "NONE",
+            "widgetVirtual": false,
+            "url": "uefa-champions-league-winner",
+            "matchPhase": "PRE_GAME",
+            "hasMarketWithZeroMargin": false,
+            "runnersCount": 3
+        }
+    ]
+}
